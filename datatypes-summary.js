@@ -5,9 +5,10 @@
 
 // 7 types: String, Number, Boolean, null, undefined, Symbol, BigInt
 
+
 //java script cousin bhai "Typescript"
 const score = 100
-const scorVvalue = 100.3
+const scorValue = 100.3
 const isLoggedIn = false
 const outsideTem = null
 let userEmail;
@@ -22,9 +23,9 @@ const anotherId = Symbol('123')
 
 //Reference (Non primitive)
 
-// Array, Obejects, Functions
+// Array, Obejects, Functions 
 
-const heros = ["shaktiman","naagraj","doge"]
+const heros = ["shaktiman","naagraj","doge"];
 
     let myObj = {
         name: "akanksha",
@@ -48,3 +49,11 @@ let anothername = myYoutubename
 anothername = "thethingsof_18"
 console.log(myYoutubename);
 console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo
